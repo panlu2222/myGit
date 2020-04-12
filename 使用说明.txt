@@ -2,8 +2,10 @@
 GitHub上传文件步骤：
 
 $ cd d:text  //切盘符，找到文件夹
-$ git init   //
+$ git init   //一般不用
 $ git add .   //上传该文件夹中所有文件
 $ git add text.txt  //上传指定文件夹
 
 $ git commit -m "XXXX"  //添加注释
+
+$ git push -u origin master //把本地仓库push到GitHub上，需要输入账户和密码
